@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+@import 'variables';
+@import 'global';
+
+html, body {
+  background: #ededed;
+  font-family: 'Roboto', sans-serif;
+  min-height: 100%;
+}
+
+.navbar {
+  padding-left: 15px;
+  padding-right: 15px;
+
+  &.scrolled {
+    background: $dark-grey;
+    transition: background-color 300ms linear;
+  }
+  
+  .navbar-brand {
+    color: #fff;
+  }
+
+  //.nav-item {
+  //  &:hover, &.active {
+  //    border-bottom: 4px solid #fff;
+  //    height: 40px;
+  //  }
+  //
+  //  a {
+  //    background: none !important;
+  //    color: #fff !important;
+  //  }
+  //}
+
+  .contact {
+    font-size: 14px;
+    flex: auto;
+    text-align: right;
+
+    p {
+      color: #fff;
+      margin-bottom: 0;
+    }
+  }
+}
+
+.index {
+  .jumbotron {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.80), rgba(0, 0, 0, 0.80)), url("/img/truck.jpg");
+    background-size: cover;
+    height: 600px;
+    padding-top: 150px;
+
+    .jumbotron-content {
+      padding: 65px 0 65px;
+
+      h1 {
+        color: #fff;
+      }
+
+      p {
+        color: #d5d5d5;
+      }
+
+      a {
+        font-size: 16px;
+        width: 150px;
+      }
+    }
+  }
+
+  .services {
+    .service-panel {
+      background: #fff;
+      padding: 25px;
+
+      h3 {
+        font-size: 21px;
+      }
+
+      .icon {
+        background: $red;
+        border-radius: 50%;
+        border: 5px solid $lighter-grey;
+        color: #fff;
+        display: inline-block;
+        font-size: 35px;
+        height: 80px;
+        width: 80px;
+      }
+
+      .service-panel-content {
+        color: $light-grey;
+        margin: 0;
+      }
+    }
+  }
+
+  .excavating,
+  .asphalt {
+    .service-image {
+      padding: 0;
+      width: 48%;
+
+      img {
+        width: 500px;
+      }
+    }
+
+    .service-text {
+      background: #fff;
+      padding: 25px 120px;
+      width: 52%;
+
+      h3 {
+        font-size: 23px;
+      }
+
+      p {
+        color: $light-grey;
+      }
+    }
+  }
+
+  .contact-form {
+    background: $dark-grey;
+    padding: 45px 0;
+    
+    h2 {
+      color: #fff;
+      font-size: 25px;
+    }
+
+    label {
+      color: #fff;
+    }
+
+    input,
+    textarea {
+      background: $medium-grey;
+      border: 1px solid $medium-grey;
+      color: #fff;
+
+      &:focus {
+        box-shadow: 0 0 0 0.10rem $medium-grey !important;
+        border: 1px solid $medium-grey !important;
+      }
+    }
+  }
+}
+
+.contact {
+  .contact-info {
+    list-style: none;
+
+    li {
+      position: relative;
+      min-height: 60px;
+      display: table;
+
+      i {
+        background: $medium-grey;
+        border-radius: 50%;
+        color: #fff;
+        display: block;
+        height: 32px;
+        font-size: 14px;
+        line-height: 33px;
+        position: absolute;
+        text-align: center;
+        width: 32px;
+      }
+
+      .info-item {
+        color: $lighter-grey;
+        font-size: 15px;
+        display: table-cell;
+        padding: 5px 0 0 45px;
+      }
+    }
+  }
+}
