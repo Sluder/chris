@@ -1,6 +1,6 @@
 
 .btn {
-  background: none;
+  background: $red;
   border-radius: 25px;
   border: 2px solid $lighter-grey;
   color: $medium-grey;
@@ -16,7 +16,6 @@
 }
 
 .btn-red {
-  background: $red;
   border: 2px solid $red;
   color: #fff;
 
@@ -55,6 +54,6 @@ form {
 .divider {
   background: $red;
   height: 2px;
-  margin: auto auto 15px;
+  margin: auto auto 20px;
   width: 40px;
 }

@@ -41,6 +41,10 @@ html, body {
     p {
       color: #fff;
       margin-bottom: 0;
+
+      i {
+        font-size: 12px;
+      }
     }
   }
 }
@@ -49,7 +53,8 @@ html, body {
   .jumbotron {
     background-image: linear-gradient(rgba(0, 0, 0, 0.80), rgba(0, 0, 0, 0.80)), url("/img/truck.jpg");
     background-size: cover;
-    height: 600px;
+    border-bottom: 40px solid rgb(102 102 102 / 15%);
+    height: 500px;
     padding-top: 150px;
 
     .jumbotron-content {
@@ -71,22 +76,24 @@ html, body {
   }
 
   .services {
+    background: #fff;
+
     .service-panel {
-      background: #fff;
       padding: 25px;
 
       h3 {
-        font-size: 21px;
+        font-size: 24px;
       }
 
       .icon {
-        background: $red;
+        background: white;
         border-radius: 50%;
-        border: 5px solid $lighter-grey;
-        color: #fff;
+        border: 3px solid $lighter-grey;
+        color: $red;
         display: inline-block;
-        font-size: 35px;
+        font-size: 30px;
         height: 80px;
+        padding-top: 13px;
         width: 80px;
       }
 
@@ -97,28 +104,28 @@ html, body {
     }
   }
 
-  .excavating,
-  .asphalt {
-    .service-image {
-      padding: 0;
-      width: 48%;
-
-      img {
-        width: 500px;
-      }
+  .who-we-are {
+    h2 {
+      font-size: 25px;
     }
 
-    .service-text {
-      background: #fff;
-      padding: 25px 120px;
-      width: 52%;
-
-      h3 {
-        font-size: 23px;
+    #image-carousel {
+      img {
+        border-radius: 5px;
+        height: 200px;
+        width: 400px;
       }
 
-      p {
-        color: $light-grey;
+      .carousel-indicators {
+        bottom: -50px;
+
+        button {
+          background-color: $medium-grey;
+
+          &.active {
+            background-color: $red;
+          }
+        }
       }
     }
   }
@@ -126,6 +133,10 @@ html, body {
   .contact-form {
     background: $dark-grey;
     padding: 45px 0;
+
+    form {
+      border-bottom: 1px solid $medium-grey;
+    }
     
     h2 {
       color: #fff;
@@ -146,6 +157,12 @@ html, body {
         box-shadow: 0 0 0 0.10rem $medium-grey !important;
         border: 1px solid $medium-grey !important;
       }
+    }
+
+    .copyright {
+      color: $light-grey;
+      font-size: 14px;
+      margin-bottom: 0;
     }
   }
 }

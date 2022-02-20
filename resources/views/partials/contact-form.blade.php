@@ -1,4 +1,4 @@
-<form action="" method="POST" class="contact">
+<form action="" method="post" class="contact">
     @csrf
 
     <div class="row">
@@ -29,22 +29,22 @@
                 <textarea name="details" id="details" rows="5" class="form-control" required></textarea>
             </div>
 
-            <button type="submit" class="btn btn-red mb-4">Submit</button>
+            <button type="submit" class="btn btn-red">Submit</button>
         </div>
 
         <div class="col-md-3">
             <ul class="contact-info">
                 <li>
                     <i class="fas fa-map-marker-alt"></i>
-                    <div class="info-item">3734 N Lakeshore Dr. Jamestown OH, 45335</div>
+                    <div class="info-item">Beavercreek OH, 45335</div>
                 </li>
                 <li>
                     <i class="fas fa-phone-alt"></i>
-                    <div class="info-item">(740) 463-1150</div>
+                    <div class="info-item">(330) 407-3135</div>
                 </li>
                 <li>
                     <i class="far fa-envelope-open"></i>
-                    <div class="info-item">zachary.sluder@gmail.com</div>
+                    <div class="info-item">rockhardexcavatingllc@gmail.com</div>
                 </li>
                 <li>
                     <i class="fab fa-facebook-f"></i>

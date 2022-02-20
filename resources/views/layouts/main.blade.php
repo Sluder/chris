@@ -33,8 +33,8 @@
                 {{--</ul>--}}
 
                 <div class="contact">
-                    <p>(330) 407-3135 <i class="fas fa-phone-alt ms-3"></i></p>
-                    <p>rocky@gmail.com <i class="far fa-envelope-open ms-3"></i></p>
+                    <p>(330) 407-3135 <i class="fas fa-phone-alt ms-2"></i></p>
+                    <p>rockhardexcavatingllc@gmail.com <i class="far fa-envelope-open ms-2"></i></p>
                 </div>
             </div>
         </nav>
