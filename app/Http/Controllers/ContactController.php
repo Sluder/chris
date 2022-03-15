@@ -9,13 +9,6 @@ use Illuminate\Support\Facades\Mail;
 
 class ContactController extends Controller
 {
-    /**
-     * Contact index page
-     */
-    public function index()
-    {
-        return view('contact');
-    }
 
     /**
      * Contact form submitted
@@ -25,7 +18,7 @@ class ContactController extends Controller
         Mail::to('zachary.sluder@gmail.com')->send(new ContactEmail($request->except('_token')));
 
         return redirect()
-            ->route('view.contact')
+            ->route('view.index')
             ->with('success', 'Thank you for your interest in working with us. We will get in touch with you soon!');
     }
 }
