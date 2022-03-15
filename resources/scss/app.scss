@@ -4,6 +4,7 @@
 
 html, body {
   background: #ededed;
+  color: $dark-grey;
   font-family: 'Roboto', sans-serif;
   min-height: 100%;
 }
@@ -51,7 +52,7 @@ html, body {
 
 .index {
   .jumbotron {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.80), rgba(0, 0, 0, 0.80)), url("/img/truck.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.80), rgba(0, 0, 0, 0.80)), url("/img/sign.jpg");
     background-size: cover;
     border-bottom: 40px solid rgb(102 102 102 / 15%);
     height: 500px;
@@ -123,7 +124,7 @@ html, body {
           background-color: $medium-grey;
 
           &.active {
-            background-color: $red;
+            background-color: $dark-grey;
           }
         }
       }

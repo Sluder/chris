@@ -52,6 +52,7 @@ form label {
 
 html, body {
   background: #ededed;
+  color: #2f2f2f;
   font-family: "Roboto", sans-serif;
   min-height: 100%;
 }
@@ -81,7 +82,7 @@ html, body {
 }
 
 .index .jumbotron {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("/img/truck.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("/img/sign.jpg");
   background-size: cover;
   border-bottom: 40px solid rgba(102, 102, 102, 0.15);
   height: 500px;
@@ -139,7 +140,7 @@ html, body {
   background-color: #5c5c5c;
 }
 .index .who-we-are #image-carousel .carousel-indicators button.active {
-  background-color: #a51c1c;
+  background-color: #2f2f2f;
 }
 .index .contact-form {
   background: #2f2f2f;

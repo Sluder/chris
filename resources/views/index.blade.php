@@ -68,7 +68,11 @@
                     For over 20 years, Rocky Applegarth has been providing excavating, asphalt, and striping services all over Ohio. To better
                     serve his customers, Rock Hard Excavating LLC was established in 2020 and has worked with both residential and commercial customers.
                 </p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tdo eiusmod tempor incididunt ut laboreLorem ipsudo eiusmod tempor incididunt ut laboreLorem ipsudo eiusmod tempor incididunt ut laboreLorem ipsudo eiusmod tempor incididunt ut laboreLorem ipsuempor incididunt ut laboreLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore</p>
+                <p>
+                    Our goal as a company is to make sure our clients feel as though they are being heard and included in every decision made on the jobs.
+                    We pride ourselves in treating clients as if they were our own families. Great communication = Great service! We look forward to working with
+                    you on your next job!
+                </p>
             </div>
 
             <div id="image-carousel" class="carousel slide mt-5 mb-4" data-bs-ride="carousel">
