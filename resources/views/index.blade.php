@@ -107,6 +107,7 @@
 
                 <div class="divider"></div>
 
+                @include('partials.flash-message')
                 @include('partials.contact-form')
             </div>
 
