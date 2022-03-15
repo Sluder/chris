@@ -2,14 +2,12 @@
 
 namespace App\Http\Controllers;
 
-use App\Http\Requests\ContactRequest;
 use App\Mail\ContactEmail;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Mail;
 
 class ContactController extends Controller
 {
-
     /**
      * Contact form submitted
      */

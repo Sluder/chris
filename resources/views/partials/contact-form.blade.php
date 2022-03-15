@@ -1,4 +1,4 @@
-<form action="{{ route('submit.contact') }}" method="post" class="contact">
+<form action="{{ route('submit.contact') }}" method="post" class="contact pb-4">
     @csrf
 
     <div class="row">
@@ -29,7 +29,7 @@
                 <textarea name="details" id="details" rows="5" class="form-control" required></textarea>
             </div>
 
-            <button type="submit" class="btn btn-red">Submit</button>
+            <button type="submit" class="btn btn-red">Send</button>
         </div>
 
         <div class="col-md-3">
@@ -46,10 +46,10 @@
                     <i class="far fa-envelope-open"></i>
                     <div class="info-item">rockhardexcavatingllc@gmail.com</div>
                 </li>
-                <li>
-                    <i class="fab fa-facebook-f"></i>
-                    <div class="info-item">@fb-company</div>
-                </li>
+                {{--<li>--}}
+                    {{--<i class="fab fa-facebook-f"></i>--}}
+                    {{--<div class="info-item">@fb-company</div>--}}
+                {{--</li>--}}
                 <li>
                     <i class="far fa-clock"></i>
                     <div class="info-item">	Monday - Friday 9:00a - 5:00p</div>

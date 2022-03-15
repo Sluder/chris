@@ -21,7 +21,7 @@
     <body>
         <nav class="navbar navbar-expand-sm navbar-expand-lg fixed-top">
             <div class="container">
-                <a class="navbar-brand" href="/">Rockys Brand</a>
+                <a class="navbar-brand" href="/">Rock Hard Excavating</a>
 
                 {{--<ul class="nav navbar-nav ms-auto">--}}
                     {{--<li class="nav-item ms-4">--}}

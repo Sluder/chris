@@ -16,6 +16,8 @@
 
         <div class="services pt-5 pb-5">
             <div class="container">
+                @include('partials.flash-message')
+
                 <div class="row">
                     <div class="col-md-4">
                         <div class="service-panel text-center mb-3">
@@ -26,7 +28,7 @@
 
                             <div class="divider"></div>
 
-                            <p class="service-panel-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore</p>
+                            <p class="service-panel-content">Including site preparation, demolition, dump trucking, dozer and bobcat operations</p>
                         </div>
                     </div>
                     <div class="col-md-4">
@@ -38,7 +40,7 @@
 
                             <div class="divider"></div>
 
-                            <p class="service-panel-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore</p>
+                            <p class="service-panel-content">Experts in sealcoating for both residential and commercial driveways or parking lots</p>
                         </div>
                     </div>
                     <div class="col-md-4">
@@ -62,7 +64,7 @@
             <div class="divider"></div>
 
             <div class="container">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore</p>
+                <p>Starting in 2020 by Rocky Applegarth, Rock Hard Excavating has been providing excavating, asphalt, and striping services all over Ohio.</p>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tdo eiusmod tempor incididunt ut laboreLorem ipsudo eiusmod tempor incididunt ut laboreLorem ipsudo eiusmod tempor incididunt ut laboreLorem ipsudo eiusmod tempor incididunt ut laboreLorem ipsuempor incididunt ut laboreLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore</p>
             </div>
 
@@ -70,31 +72,22 @@
                 <div class="carousel-indicators">
                     <button type="button" data-bs-target="#image-carousel" data-bs-slide-to="0" class="active" aria-current="true"></button>
                     <button type="button" data-bs-target="#image-carousel" data-bs-slide-to="1"></button>
-                    <button type="button" data-bs-target="#image-carousel" data-bs-slide-to="2"></button>
                 </div>
 
                 <div class="carousel-inner text-center">
                     <div class="carousel-item active">
                         <div class="d-flex justify-content-center">
-                            <img class="d-block" src="{{ asset('/img/asphalt.jpg') }}">
-                            <img class="d-block ms-4 me-4" src="{{ asset('/img/excavating.jpg') }}">
-                            <img class="d-block" src="{{ asset('/img/paving.jpg') }}">
+                            <img class="d-block" src="{{ asset('/img/tractor.jpg') }}">
+                            <img class="d-block ms-4 me-4" src="{{ asset('/img/excavating.jpeg') }}">
+                            <img class="d-block" src="{{ asset('/img/pond.jpg') }}">
                         </div>
                     </div>
 
                     <div class="carousel-item">
                         <div class="d-flex justify-content-center">
-                            <img class="d-block" src="{{ asset('/img/excavating.jpg') }}">
-                            <img class="d-block ms-4 me-4" src="{{ asset('/img/paving.jpg') }}">
-                            <img class="d-block" src="{{ asset('/img/asphalt.jpg') }}">
-                        </div>
-                    </div>
-
-                    <div class="carousel-item">
-                        <div class="d-flex justify-content-center">
-                            <img class="d-block" src="{{ asset('/img/asphalt.jpg') }}">
-                            <img class="d-block ms-4 me-4" src="{{ asset('/img/paving.jpg') }}">
-                            <img class="d-block" src="{{ asset('/img/excavating.jpg') }}">
+                            <img class="d-block" src="{{ asset('/img/truck.jpg') }}">
+                            <img class="d-block ms-4 me-4" src="{{ asset('/img/truck2.jpg') }}">
+                            <img class="d-block" src="{{ asset('/img/water.jpg') }}">
                         </div>
                     </div>
                 </div>
@@ -107,11 +100,10 @@
 
                 <div class="divider"></div>
 
-                @include('partials.flash-message')
                 @include('partials.contact-form')
             </div>
 
-            <p class="copyright text-center mt-3">All rights reserved. <i class="far fa-copyright"></i> 2020 - @php echo date('Y') @endphp</p>
+            <p class="copyright text-center mt-3">All rights reserved. &nbsp;<i class="far fa-copyright"></i>&nbsp;2020 - @php echo date('Y') @endphp</p>
         </div>
     </div>
 @endsection
