@@ -52,7 +52,7 @@
 
                             <div class="divider"></div>
 
-                            <p class="service-panel-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore</p>
+                            <p class="service-panel-content">All striping needs including handicap lines, lanes, arrows and much more</p>
                         </div>
                     </div>
                 </div>
