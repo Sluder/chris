@@ -13,7 +13,7 @@ class ContactController extends Controller
      */
     public function submission(Request $request)
     {
-        Mail::to('zachary.sluder@gmail.com')->send(new ContactEmail($request->except('_token')));
+        Mail::to(env('MAIL_FROM_ADDRESS'))->send(new ContactEmail($request->except('_token')));
 
         return redirect()
             ->route('view.index')

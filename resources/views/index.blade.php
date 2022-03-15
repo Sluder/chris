@@ -64,7 +64,10 @@
             <div class="divider"></div>
 
             <div class="container">
-                <p>Starting in 2020 by Rocky Applegarth, Rock Hard Excavating has been providing excavating, asphalt, and striping services all over Ohio.</p>
+                <p>
+                    For over 20 years, Rocky Applegarth has been providing excavating, asphalt, and striping services all over Ohio. To better
+                    serve his customers, Rock Hard Excavating LLC was established in 2020 and has worked with both residential and commercial customers.
+                </p>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tdo eiusmod tempor incididunt ut laboreLorem ipsudo eiusmod tempor incididunt ut laboreLorem ipsudo eiusmod tempor incididunt ut laboreLorem ipsudo eiusmod tempor incididunt ut laboreLorem ipsuempor incididunt ut laboreLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore</p>
             </div>
 
@@ -72,6 +75,7 @@
                 <div class="carousel-indicators">
                     <button type="button" data-bs-target="#image-carousel" data-bs-slide-to="0" class="active" aria-current="true"></button>
                     <button type="button" data-bs-target="#image-carousel" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#image-carousel" data-bs-slide-to="2"></button>
                 </div>
 
                 <div class="carousel-inner text-center">
@@ -88,6 +92,14 @@
                             <img class="d-block" src="{{ asset('/img/truck.jpg') }}">
                             <img class="d-block ms-4 me-4" src="{{ asset('/img/truck2.jpg') }}">
                             <img class="d-block" src="{{ asset('/img/water.jpg') }}">
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <div class="d-flex justify-content-center">
+                            <img class="d-block" src="{{ asset('/img/striping1.jpg') }}">
+                            <img class="d-block ms-4 me-4" src="{{ asset('/img/striping2.jpg') }}">
+                            <img class="d-block" src="{{ asset('/img/striping3.jpeg') }}">
                         </div>
                     </div>
                 </div>
