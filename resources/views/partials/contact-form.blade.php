@@ -1,4 +1,4 @@
-<form action="" method="post" class="contact">
+<form action="{{ route('submit.contact') }}" method="post" class="contact">
     @csrf
 
     <div class="row">
