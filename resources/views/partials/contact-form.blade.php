@@ -19,7 +19,7 @@
                 <div class="col-md-4">
                     <div class="form-group mb-3">
                         <label for="phone">Phone Number</label>
-                        <input type="tel" name="phone" id="phone" class="form-control" required>
+                        <input type="tel" name="phone" id="phone" class="form-control">
                     </div>
                 </div>
             </div>
@@ -36,7 +36,7 @@
             <ul class="contact-info">
                 <li>
                     <i class="fas fa-map-marker-alt"></i>
-                    <div class="info-item">Beavercreek OH, 45335</div>
+                    <div class="info-item">Beavercreek OH, 45434</div>
                 </li>
                 <li>
                     <i class="fas fa-phone-alt"></i>
