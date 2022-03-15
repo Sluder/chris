@@ -8,7 +8,7 @@
 
         @yield('meta')
 
-        <title>Rocky | @yield('title')</title>
+        <title>Rock Hard | @yield('title')</title>
 
         {{-- Styles --}}
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/hung1001/font-awesome-pro@4cac1a6/css/all.css" crossorigin="anonymous" referrerpolicy="no-referrer">
