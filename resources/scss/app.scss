@@ -3,199 +3,228 @@
 @import 'global';
 
 html, body {
-  background: #ededed;
-  color: $dark-grey;
-  font-family: 'Roboto', sans-serif;
-  min-height: 100%;
+    background: #ededed;
+    color: $dark-grey;
+    font-family: 'Roboto', sans-serif;
+    min-height: 100%;
 }
 
 .navbar {
-  padding-left: 15px;
-  padding-right: 15px;
-
-  &.scrolled {
     background: $dark-grey;
-    transition: background-color 300ms linear;
-  }
-  
-  .navbar-brand {
-    color: #fff;
-  }
+    padding-left: 15px;
+    padding-right: 15px;
 
-  //.nav-item {
-  //  &:hover, &.active {
-  //    border-bottom: 4px solid #fff;
-  //    height: 40px;
-  //  }
-  //
-  //  a {
-  //    background: none !important;
-  //    color: #fff !important;
-  //  }
-  //}
-
-  .contact {
-    font-size: 14px;
-    flex: auto;
-    text-align: right;
-
-    p {
-      color: #fff;
-      margin-bottom: 0;
-
-      i {
-        font-size: 12px;
-      }
+    .navbar-brand {
+        color: #fff;
     }
-  }
+
+    //.nav-item {
+    //  &:hover, &.active {
+    //    border-bottom: 4px solid #fff;
+    //    height: 40px;
+    //  }
+    //
+    //  a {
+    //    background: none !important;
+    //    color: #fff !important;
+    //  }
+    //}
+
+    .contact {
+        font-size: 14px;
+        flex: auto;
+        text-align: right;
+
+        p {
+            color: #fff;
+            margin-bottom: 0;
+
+            i {
+                font-size: 12px;
+            }
+        }
+    }
 }
 
 .index {
-  .jumbotron {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.80), rgba(0, 0, 0, 0.80)), url("/img/sign.jpg");
-    background-size: cover;
-    border-bottom: 40px solid rgb(102 102 102 / 15%);
-    height: 500px;
-    padding-top: 150px;
+    .jumbotron {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.80), rgba(0, 0, 0, 0.80)), url("/img/kitchen.png");
+        background-size: cover;
+        height: 500px;
+        padding-top: 150px;
+        background-position-y: bottom;
 
-    .jumbotron-content {
-      padding: 65px 0 65px;
+        .jumbotron-content {
+            padding: 65px 0 65px;
 
-      h1 {
-        color: #fff;
-      }
+            h1 {
+                color: #fff;
+            }
 
-      p {
-        color: #d5d5d5;
-      }
+            p {
+                color: #d5d5d5;
+            }
 
-      a {
-        font-size: 16px;
-        width: 150px;
-      }
-    }
-  }
-
-  .services {
-    background: #fff;
-
-    .service-panel {
-      padding: 25px;
-
-      h3 {
-        font-size: 24px;
-      }
-
-      .icon {
-        background: white;
-        border-radius: 50%;
-        border: 3px solid $lighter-grey;
-        color: $red;
-        display: inline-block;
-        font-size: 30px;
-        height: 80px;
-        padding-top: 13px;
-        width: 80px;
-      }
-
-      .service-panel-content {
-        color: $light-grey;
-        margin: 0;
-      }
-    }
-  }
-
-  .who-we-are {
-    h2 {
-      font-size: 25px;
-    }
-
-    #image-carousel {
-      img {
-        border-radius: 5px;
-        height: 200px;
-        width: 400px;
-      }
-
-      .carousel-indicators {
-        bottom: -50px;
-
-        button {
-          background-color: $medium-grey;
-
-          &.active {
-            background-color: $dark-grey;
-          }
+            a {
+                font-size: 16px;
+                width: 150px;
+            }
         }
-      }
-    }
-  }
-
-  .contact-form {
-    background: $dark-grey;
-    padding: 45px 0;
-
-    form {
-      border-bottom: 1px solid $medium-grey;
-    }
-    
-    h2 {
-      color: #fff;
-      font-size: 25px;
     }
 
-    label {
-      color: #fff;
+    .services {
+        background: $yellow;
+
+        .service-panel-center {
+            background: #C89000;
+        }
+
+        .service-panel {
+            padding: 45px 25px;
+
+            h3 {
+                color: #fff;
+                font-size: 24px;
+            }
+
+            .icon {
+                color: white;
+                text-align: center;
+                border-radius: 50%;
+                border: 2px solid #fff;
+                display: inline-block;
+                font-size: 25px;
+                height: 50px;
+                padding-top: 5px;
+                width: 50px;
+                margin-right: 10px;
+
+                i {
+                    margin-top: 5px;
+                }
+            }
+
+            .divider {
+                background: #fff;
+                height: 2px;
+                margin: -10px auto 30px 70px;
+                width: 50px;
+            }
+
+            .service-panel-content {
+                color: #fff;
+                margin: 0;
+            }
+        }
     }
 
-    input,
-    textarea {
-      background: $medium-grey;
-      border: 1px solid $medium-grey;
-      color: #fff;
+    .our-work {
+        margin: 40px 0;
 
-      &:focus {
-        box-shadow: 0 0 0 0.10rem $medium-grey !important;
-        border: 1px solid $medium-grey !important;
-      }
+        .quote {
+            margin-bottom: 30px;
+
+            .quote-content {
+                color: black;
+                font-size: 18px;
+            }
+
+            .quote-author {
+                color: $light-grey;
+                font-size: 15px;
+            }
+        }
+
+        .our-work-panel {
+            border-radius: 5px;
+            border: 1px solid $lighter-grey;
+            padding: 25px;
+
+            .image {
+                background-size: cover;
+                border-radius: 5px;
+                min-height: 200px;
+                max-height: 300px;
+                width: 100%;
+            }
+
+            h2 {
+                margin-top: 15px;
+                font-size: 24px;
+            }
+
+            p {
+                color: $light-grey;
+                font-size: 15px;
+            }
+        }
     }
 
-    .copyright {
-      color: $light-grey;
-      font-size: 14px;
-      margin-bottom: 0;
+    .contact-form {
+        background: $dark-grey;
+        padding: 45px 0;
+
+        form {
+            border-bottom: 1px solid $medium-grey;
+        }
+
+        h2 {
+            color: #fff;
+            font-size: 25px;
+        }
+
+        label {
+            color: #fff;
+        }
+
+        input,
+        textarea {
+            background: $medium-grey;
+            border: 1px solid $light-grey;
+            color: #fff;
+
+            &:focus {
+                box-shadow: 0 0 0 0.10rem $medium-grey !important;
+                border: 1px solid $medium-grey !important;
+            }
+        }
+
+        .copyright {
+            color: $light-grey;
+            font-size: 14px;
+            margin-bottom: 0;
+        }
     }
-  }
 }
 
 .contact {
-  .contact-info {
-    list-style: none;
+    .contact-info {
+        list-style: none;
 
-    li {
-      position: relative;
-      min-height: 60px;
-      display: table;
+        li {
+            position: relative;
+            min-height: 60px;
+            display: table;
 
-      i {
-        background: $medium-grey;
-        border-radius: 50%;
-        color: #fff;
-        display: block;
-        height: 32px;
-        font-size: 14px;
-        line-height: 33px;
-        position: absolute;
-        text-align: center;
-        width: 32px;
-      }
+            i {
+                background: $medium-grey;
+                border-radius: 50%;
+                color: #fff;
+                display: block;
+                height: 32px;
+                font-size: 14px;
+                line-height: 33px;
+                position: absolute;
+                text-align: center;
+                width: 32px;
+            }
 
-      .info-item {
-        color: $lighter-grey;
-        font-size: 15px;
-        display: table-cell;
-        padding: 5px 0 0 45px;
-      }
+            .info-item {
+                color: $lighter-grey;
+                font-size: 15px;
+                display: table-cell;
+                padding: 5px 0 0 45px;
+            }
+        }
     }
-  }
 }

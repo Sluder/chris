@@ -7,36 +7,43 @@
         <div class="jumbotron">
             <div class="jumbotron-content">
                 <div class="container text-center">
-                    <h1>Rock Hard Excavating</h1>
-                    <p>Southern Ohio Asphalt & Excavating</p>
-                    <a href="#get-a-quote" class="btn btn-red mt-4">Get a Quote</a>
+                    <h1>Welcome to CMC</h1>
+                    <p>Northern Ohio Construction & Renovation</p>
+                    <a href="#get-in-touch" class="btn btn-yellow mt-4">Get in Touch</a>
                 </div>
             </div>
         </div>
 
-        <div class="services pt-5 pb-5">
-            <div class="container">
+        <div class="services">
+            <div class="container-fluid">
                 @include('partials.flash-message')
 
                 <div class="row">
                     <div class="col-md-4">
-                        <div class="service-panel text-center mb-3">
-                            <div class="icon">
-                                <i class="far fa-construction"></i>
+                        <div class="service-panel mb-3">
+                            <div class="text-left">
+                                <h3>
+                                    <span class="icon">
+                                        <i class="far fa-plug"></i>
+                                    </span>
+                                    Electrical
+                                </h3>
+                                <div class="divider"></div>
                             </div>
-                            <h3 class="mt-1">Excavating</h3>
-
-                            <div class="divider"></div>
 
                             <p class="service-panel-content">Including site preparation, demolition, dump trucking, dozer and bobcat operations</p>
                         </div>
                     </div>
-                    <div class="col-md-4">
-                        <div class="service-panel text-center mb-3">
-                            <div class="icon">
-                                <i class="fas fa-traffic-cone"></i>
+                    <div class="col-md-4 service-panel-center">
+                        <div class="service-panel mb-3">
+                            <div class="text-left">
+                                <h3>
+                                    <span class="icon">
+                                        <i class="far fa-construction"></i>
+                                    </span>
+                                    Demolition & Renovation
+                                </h3>
                             </div>
-                            <h3 class="mt-1">Asphalt</h3>
 
                             <div class="divider"></div>
 
@@ -44,11 +51,15 @@
                         </div>
                     </div>
                     <div class="col-md-4">
-                        <div class="service-panel text-center mb-3">
-                            <div class="icon">
-                                <i class="fal fa-road"></i>
+                        <div class="service-panel mb-3">
+                            <div class="text-left">
+                                <h3>
+                                    <span class="icon">
+                                        <i class="far fa-faucet-drip"></i>
+                                    </span>
+                                    Plumbing
+                                </h3>
                             </div>
-                            <h3 class="mt-1">Striping</h3>
 
                             <div class="divider"></div>
 
@@ -59,79 +70,74 @@
             </div>
         </div>
 
-        <div class="who-we-are pt-5 pb-5 text-center">
-            <h2>Who We Are</h2>
-            <div class="divider"></div>
-
+        <div class="our-work">
             <div class="container">
-                <p>
-                    For over 20 years, Rocky Applegarth has been providing excavating, asphalt, and striping services all over Ohio. To better
-                    serve his customers, Rock Hard Excavating LLC was established in 2020 and has worked with both residential and commercial customers.
-                </p>
-                <p>
-                    Our goal as a company is to make sure our clients feel as though they are being heard and included in every decision made on the jobs.
-                    We pride ourselves in treating clients as if they were our own families. Great communication = Great service! We look forward to working with
-                    you on your next job!
-                </p>
+                <div class="row">
+                    <div class="col-sm-12 col-md-6 offset-md-3">
+                        <div class="text-center">
+                            <div class="quote">
+                                <p class="quote-content">
+                                    <i>
+                                        “We will never give you creative reasons why something didn’t work,
+                                        we simply do what we say we are going to do”
+                                    </i>
+                                </p>
+                                <p class="quote-author">
+                                    <i>- Christopher Milo</i>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
 
-            <div id="image-carousel" class="carousel slide mt-5 mb-4" data-bs-ride="carousel">
-                <div class="carousel-indicators">
-                    <button type="button" data-bs-target="#image-carousel" data-bs-slide-to="0" class="active" aria-current="true"></button>
-                    <button type="button" data-bs-target="#image-carousel" data-bs-slide-to="1"></button>
-                    <button type="button" data-bs-target="#image-carousel" data-bs-slide-to="2"></button>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="our-work-panel">
+                            <div class="image" style="background-image: url('/img/bathroom-1.jpg')"></div>
+
+                            <h2>Bathroom</h2>
+
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A eius facere in magni maxime nam pariatur quam, reiciendis vero voluptates! A, explicabo iste nemo obcaecati perspiciatis saepe suscipit vitae voluptas.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="our-work-panel">
+                            <div class="image" style="background-image: url('/img/kitchen-1.jpeg')"></div>
+
+                            <h2>Kitchen</h2>
+
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A eius facere in magni maxime nam pariatur quam, reiciendis vero voluptates! A, explicabo iste nemo obcaecati perspiciatis saepe suscipit vitae voluptas.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="our-work-panel">
+                            <div class="image" style="background-image: url('/img/shed-1.jpg')"></div>
+
+                            <h2>Outdoors</h2>
+
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A eius facere in magni maxime nam pariatur quam, reiciendis vero voluptates! A, explicabo iste nemo obcaecati perspiciatis saepe suscipit vitae voluptas.</p>
+                        </div>
+                    </div>
                 </div>
 
-                <div class="carousel-inner text-center">
-                    <div class="carousel-item active">
-                        <div class="d-flex justify-content-center">
-                            <img class="d-block" src="{{ asset('/img/tractor.jpg') }}">
-                            <img class="d-block ms-4 me-4" src="{{ asset('/img/excavating.jpeg') }}">
-                            <img class="d-block" src="{{ asset('/img/pond.jpg') }}">
-                        </div>
-                    </div>
-
-                    <div class="carousel-item">
-                        <div class="d-flex justify-content-center">
-                            <img class="d-block" src="{{ asset('/img/truck.jpg') }}">
-                            <img class="d-block ms-4 me-4" src="{{ asset('/img/truck2.jpg') }}">
-                            <img class="d-block" src="{{ asset('/img/water.jpg') }}">
-                        </div>
-                    </div>
-
-                    <div class="carousel-item">
-                        <div class="d-flex justify-content-center">
-                            <img class="d-block" src="{{ asset('/img/striping1.jpg') }}">
-                            <img class="d-block ms-4 me-4" src="{{ asset('/img/striping2.jpg') }}">
-                            <img class="d-block" src="{{ asset('/img/striping3.jpeg') }}">
-                        </div>
-                    </div>
+                <div class="text-center">
+                    <a href="" class="btn btn-yellow mt-4">See Our Work</a>
                 </div>
             </div>
         </div>
 
-        <div class="contact-form" id="get-a-quote">
+        <div class="contact-form" id="get-in-touch">
             <div class="container">
-                <h2 class="text-center">Request a Quote</h2>
+                <h2 class="text-center">Get in Touch</h2>
 
                 <div class="divider"></div>
 
                 @include('partials.contact-form')
             </div>
 
-            <p class="copyright text-center mt-3">All rights reserved. &nbsp;<i class="far fa-copyright"></i>&nbsp;2020 - @php echo date('Y') @endphp</p>
+            <p class="copyright text-center mt-3">All rights reserved. &nbsp;<i class="far fa-copyright"></i>&nbsp;2022 - @php echo date('Y') @endphp</p>
         </div>
     </div>
 @endsection
-
-@push('scripts')
-    <script type="text/javascript">
-        $(function () {
-            $(document).scroll(function () {
-                let $navbar = $(".navbar");
-
-                $navbar.toggleClass('scrolled', $(this).scrollTop() > $navbar.height());
-            });
-        });
-    </script>
-@endpush

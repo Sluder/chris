@@ -1,7 +1,7 @@
 
 .btn {
-  background: $red;
-  border-radius: 25px;
+  background: $yellow;
+  border-radius: 5px;
   border: 2px solid $lighter-grey;
   color: $medium-grey;
   font-size: 15px;
@@ -15,14 +15,14 @@
   }
 }
 
-.btn-red {
-  border: 2px solid $red;
+.btn-yellow {
+  border: 2px solid $yellow;
   color: #fff;
 
   &:focus,
   &:hover {
-    box-shadow: 0 0 0 0.2rem rgb(165 28 28 / 50%);
-    color: $lighter-grey;
+    box-shadow: 0 0 0 0.2rem rgba(216, 156, 1, 0.5);
+    color: #fff;
   }
 }
 
@@ -52,7 +52,7 @@ form {
 }
 
 .divider {
-  background: $red;
+  background: $yellow;
   height: 2px;
   margin: auto auto 20px;
   width: 40px;

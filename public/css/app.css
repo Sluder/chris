@@ -1,25 +1,25 @@
 @import url(https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap);
 .btn {
-  background: #a51c1c;
-  border-radius: 25px;
+  background: #D89C01;
+  border-radius: 5px;
   border: 2px solid #dcdcdc;
-  color: #5c5c5c;
+  color: #363636;
   font-size: 15px;
   min-width: 100px;
   padding: 5px 15px;
 }
 .btn:focus, .btn:hover {
   box-shadow: 0 0 0 0.1rem #dcdcdc;
-  color: #5c5c5c;
+  color: #363636;
 }
 
-.btn-red {
-  border: 2px solid #a51c1c;
+.btn-yellow {
+  border: 2px solid #D89C01;
   color: #fff;
 }
-.btn-red:focus, .btn-red:hover {
-  box-shadow: 0 0 0 0.2rem rgba(165, 28, 28, 0.5);
-  color: #dcdcdc;
+.btn-yellow:focus, .btn-yellow:hover {
+  box-shadow: 0 0 0 0.2rem rgba(216, 156, 1, 0.5);
+  color: #fff;
 }
 
 form input,
@@ -30,8 +30,8 @@ form textarea {
 form input:focus,
 form select:focus,
 form textarea:focus {
-  box-shadow: 0 0 0 0.1rem #5c5c5c !important;
-  border: 1px solid #5c5c5c !important;
+  box-shadow: 0 0 0 0.1rem #363636 !important;
+  border: 1px solid #363636 !important;
 }
 form textarea {
   resize: vertical;
@@ -44,7 +44,7 @@ form label {
 }
 
 .divider {
-  background: #a51c1c;
+  background: #D89C01;
   height: 2px;
   margin: auto auto 20px;
   width: 40px;
@@ -52,18 +52,15 @@ form label {
 
 html, body {
   background: #ededed;
-  color: #2f2f2f;
+  color: #2E2E2E;
   font-family: "Roboto", sans-serif;
   min-height: 100%;
 }
 
 .navbar {
+  background: #2E2E2E;
   padding-left: 15px;
   padding-right: 15px;
-}
-.navbar.scrolled {
-  background: #2f2f2f;
-  transition: background-color 300ms linear;
 }
 .navbar .navbar-brand {
   color: #fff;
@@ -82,11 +79,11 @@ html, body {
 }
 
 .index .jumbotron {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("/img/sign.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("/img/kitchen.png");
   background-size: cover;
-  border-bottom: 40px solid rgba(102, 102, 102, 0.15);
   height: 500px;
   padding-top: 150px;
+  background-position-y: bottom;
 }
 .index .jumbotron .jumbotron-content {
   padding: 65px 0 65px;
@@ -102,52 +99,83 @@ html, body {
   width: 150px;
 }
 .index .services {
-  background: #fff;
+  background: #D89C01;
+}
+.index .services .service-panel-center {
+  background: #C89000;
 }
 .index .services .service-panel {
-  padding: 25px;
+  padding: 45px 25px;
 }
 .index .services .service-panel h3 {
+  color: #fff;
   font-size: 24px;
 }
 .index .services .service-panel .icon {
-  background: white;
+  color: white;
+  text-align: center;
   border-radius: 50%;
-  border: 3px solid #dcdcdc;
-  color: #a51c1c;
+  border: 2px solid #fff;
   display: inline-block;
-  font-size: 30px;
-  height: 80px;
-  padding-top: 13px;
-  width: 80px;
+  font-size: 25px;
+  height: 50px;
+  padding-top: 5px;
+  width: 50px;
+  margin-right: 10px;
+}
+.index .services .service-panel .icon i {
+  margin-top: 5px;
+}
+.index .services .service-panel .divider {
+  background: #fff;
+  height: 2px;
+  margin: -10px auto 30px 70px;
+  width: 50px;
 }
 .index .services .service-panel .service-panel-content {
-  color: #858585;
+  color: #fff;
   margin: 0;
 }
-.index .who-we-are h2 {
-  font-size: 25px;
+.index .our-work {
+  margin: 40px 0;
 }
-.index .who-we-are #image-carousel img {
+.index .our-work .quote {
+  margin-bottom: 30px;
+}
+.index .our-work .quote .quote-content {
+  color: black;
+  font-size: 18px;
+}
+.index .our-work .quote .quote-author {
+  color: #828282;
+  font-size: 15px;
+}
+.index .our-work .our-work-panel {
   border-radius: 5px;
-  height: 200px;
-  width: 400px;
+  border: 1px solid #dcdcdc;
+  padding: 25px;
 }
-.index .who-we-are #image-carousel .carousel-indicators {
-  bottom: -50px;
+.index .our-work .our-work-panel .image {
+  background-size: cover;
+  border-radius: 5px;
+  min-height: 200px;
+  max-height: 300px;
+  width: 100%;
 }
-.index .who-we-are #image-carousel .carousel-indicators button {
-  background-color: #5c5c5c;
+.index .our-work .our-work-panel h2 {
+  margin-top: 15px;
+  font-size: 24px;
 }
-.index .who-we-are #image-carousel .carousel-indicators button.active {
-  background-color: #2f2f2f;
+.index .our-work .our-work-panel p {
+  color: #828282;
+  font-size: 15px;
 }
 .index .contact-form {
-  background: #2f2f2f;
+  background: #2E2E2E;
   padding: 45px 0;
 }
 .index .contact-form form {
-  border-bottom: 1px solid #5c5c5c;
+  border-bottom: 1px solid #363636;
 }
 .index .contact-form h2 {
   color: #fff;
@@ -158,17 +186,17 @@ html, body {
 }
 .index .contact-form input,
 .index .contact-form textarea {
-  background: #5c5c5c;
-  border: 1px solid #5c5c5c;
+  background: #363636;
+  border: 1px solid #828282;
   color: #fff;
 }
 .index .contact-form input:focus,
 .index .contact-form textarea:focus {
-  box-shadow: 0 0 0 0.1rem #5c5c5c !important;
-  border: 1px solid #5c5c5c !important;
+  box-shadow: 0 0 0 0.1rem #363636 !important;
+  border: 1px solid #363636 !important;
 }
 .index .contact-form .copyright {
-  color: #858585;
+  color: #828282;
   font-size: 14px;
   margin-bottom: 0;
 }
@@ -182,7 +210,7 @@ html, body {
   display: table;
 }
 .contact .contact-info li i {
-  background: #5c5c5c;
+  background: #363636;
   border-radius: 50%;
   color: #fff;
   display: block;

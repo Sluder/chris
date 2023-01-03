@@ -6,11 +6,11 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta http-equiv="content-language" content="en-us">
         <meta name="csrf-token" content="{{ csrf_token() }}">
-        <meta name="description" content="Rock Hard Excavating LLC provides excavating, asphalt and striping services all over Ohio.">
+        <meta name="description" content="">
 
         @yield('meta')
 
-        <title>Rock Hard | @yield('title')</title>
+        <title>CMC | @yield('title')</title>
 
         {{-- Styles --}}
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/hung1001/font-awesome-pro@4cac1a6/css/all.css" crossorigin="anonymous" referrerpolicy="no-referrer">
@@ -23,7 +23,7 @@
     <body>
         <nav class="navbar navbar-expand-sm navbar-expand-lg fixed-top">
             <div class="container">
-                <a class="navbar-brand d-none d-md-block" href="/">Rock Hard Excavating</a>
+                <a class="navbar-brand d-none d-md-block" href="/">CMC</a>
 
                 {{--<ul class="nav navbar-nav ms-auto">--}}
                     {{--<li class="nav-item ms-4">--}}
@@ -35,8 +35,8 @@
                 {{--</ul>--}}
 
                 <div class="contact">
-                    <p>(330) 407-3135 <i class="fas fa-phone-alt ms-2"></i></p>
-                    <p>rockhardexcavatingllc@gmail.com <i class="far fa-envelope-open ms-2"></i></p>
+                    <p>(330) 418-6616 <i class="fas fa-phone-alt ms-2"></i></p>
+                    <p>cmiloproductions@gmail.com <i class="far fa-envelope-open ms-2"></i></p>
                 </div>
             </div>
         </nav>
