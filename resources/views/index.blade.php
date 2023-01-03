@@ -31,7 +31,7 @@
                                 <div class="divider"></div>
                             </div>
 
-                            <p class="service-panel-content">Including site preparation, demolition, dump trucking, dozer and bobcat operations</p>
+                            <p class="service-panel-content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. A eius facere in magni maxime nam pariatur quam, reiciendis vero voluptates! A, explicab</p>
                         </div>
                     </div>
                     <div class="col-md-4 service-panel-center">
@@ -47,7 +47,7 @@
 
                             <div class="divider"></div>
 
-                            <p class="service-panel-content">Experts in sealcoating for both residential and commercial driveways or parking lots</p>
+                            <p class="service-panel-content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. A eius facere in magni maxime nam pariatur quam, reiciendis vero voluptates! A, explicab</p>
                         </div>
                     </div>
                     <div class="col-md-4">
@@ -63,7 +63,7 @@
 
                             <div class="divider"></div>
 
-                            <p class="service-panel-content">All striping needs including handicap lines, lanes, arrows and much more</p>
+                            <p class="service-panel-content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. A eius facere in magni maxime nam pariatur quam, reiciendis vero voluptates! A, explicab</p>
                         </div>
                     </div>
                 </div>
