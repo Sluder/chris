@@ -18,17 +18,17 @@ html, body {
         color: #fff;
     }
 
-    //.nav-item {
-    //  &:hover, &.active {
-    //    border-bottom: 4px solid #fff;
-    //    height: 40px;
-    //  }
-    //
-    //  a {
-    //    background: none !important;
-    //    color: #fff !important;
-    //  }
-    //}
+    .nav-item {
+      &:hover, &.active {
+        border-bottom: 2px solid $yellow;
+        height: 40px;
+      }
+
+      a {
+        background: none !important;
+        color: #fff !important;
+      }
+    }
 
     .contact {
         font-size: 14px;
@@ -125,7 +125,7 @@ html, body {
             margin-bottom: 30px;
 
             .quote-content {
-                color: black;
+                color: $dark-grey;
                 font-size: 18px;
             }
 
@@ -160,9 +160,19 @@ html, body {
         }
     }
 
+    .who-we-are {
+        background: $lighter-grey;
+        padding: 40px 0;
+
+        h2 {
+            color: $dark-grey;
+            font-size: 25px;
+        }
+    }
+
     .contact-form {
         background: $dark-grey;
-        padding: 45px 0;
+        padding: 40px 0;
 
         form {
             border-bottom: 1px solid $medium-grey;

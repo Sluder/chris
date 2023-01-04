@@ -23,16 +23,16 @@
     <body>
         <nav class="navbar navbar-expand-sm navbar-expand-lg fixed-top">
             <div class="container">
-                <a class="navbar-brand d-none d-md-block" href="/">CMC</a>
+                <a class="navbar-brand d-none d-md-block" href="{{ route('view.index') }}">CMC</a>
 
-                {{--<ul class="nav navbar-nav ms-auto">--}}
-                    {{--<li class="nav-item ms-4">--}}
-                        {{--<a href="" class="nav-link">Services</a>--}}
-                    {{--</li>--}}
-                    {{--<li class="nav-item ms-4">--}}
-                        {{--<a href="" class="nav-link">Our Work</a>--}}
-                    {{--</li>--}}
-                {{--</ul>--}}
+                <ul class="nav navbar-nav">
+                    <li class="nav-item ms-4 {{ (request()->is('/')) ? 'active' : '' }}">
+                        <a href="{{ route('view.index') }}" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item ms-4 {{ (request()->is('/our-work')) ? 'active' : '' }}">
+                        <a href="{{ route('view.ourWork') }}" class="nav-link">Our Work</a>
+                    </li>
+                </ul>
 
                 <div class="contact">
                     <p>(330) 418-6616 <i class="fas fa-phone-alt ms-2"></i></p>

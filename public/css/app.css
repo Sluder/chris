@@ -65,6 +65,14 @@ html, body {
 .navbar .navbar-brand {
   color: #fff;
 }
+.navbar .nav-item:hover, .navbar .nav-item.active {
+  border-bottom: 2px solid #D89C01;
+  height: 40px;
+}
+.navbar .nav-item a {
+  background: none !important;
+  color: #fff !important;
+}
 .navbar .contact {
   font-size: 14px;
   flex: auto;
@@ -143,7 +151,7 @@ html, body {
   margin-bottom: 30px;
 }
 .index .our-work .quote .quote-content {
-  color: black;
+  color: #2E2E2E;
   font-size: 18px;
 }
 .index .our-work .quote .quote-author {
@@ -170,9 +178,17 @@ html, body {
   color: #828282;
   font-size: 15px;
 }
+.index .who-we-are {
+  background: #dcdcdc;
+  padding: 40px 0;
+}
+.index .who-we-are h2 {
+  color: #2E2E2E;
+  font-size: 25px;
+}
 .index .contact-form {
   background: #2E2E2E;
-  padding: 45px 0;
+  padding: 40px 0;
 }
 .index .contact-form form {
   border-bottom: 1px solid #363636;

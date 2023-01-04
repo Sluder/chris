@@ -8,4 +8,9 @@ class PageController extends Controller
     {
         return view('index');
     }
+
+    public function ourWork()
+    {
+        return view('our-work');
+    }
 }

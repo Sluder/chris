@@ -7,6 +7,7 @@ use \App\Http\Controllers\ContactController;
 
 Route::name('view.')->group(function() {
     Route::get('/', [PageController::class, 'index'])->name('index');
+    Route::get('/our-work', [PageController::class, 'ourWork'])->name('ourWork');
 });
 
 Route::name('submit.')->group(function () {

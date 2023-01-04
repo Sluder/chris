@@ -123,7 +123,42 @@
                 </div>
 
                 <div class="text-center">
-                    <a href="" class="btn btn-yellow mt-4">See Our Work</a>
+                    <a href="{{ route('view.ourWork') }}" class="btn btn-yellow mt-4">See Our Work</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="who-we-are">
+            <div class="container">
+                <h2 class="text-center">Who We Are</h2>
+
+                <div class="divider"></div>
+
+                <div class="content text-center">
+                    <p>
+                        Christopher Milo Construction (CMC) is a remodeling contractor in Greater NE
+                        Ohio, serving customers from (but not limited to) Western Pennsylvania to
+                        Cleveland’s west side. Our team has individually been offering 5-star
+                        quality to customers for many years. In January 2023, we are joining our
+                        efforts to bring you the best quality at a fair market price.
+                    </p>
+                    <p>
+                        For over 20 years, Christopher Milo Construction has transformed homes in
+                        the NE Ohio area with siding, roofing and gutters, kitchens, decks, garages,
+                        pole buildings and whole house remodels. We work with the most qualified
+                        subcontractors in NE Ohio, and we work with you to find the right product
+                        and look for your project! If you are looking to redesign your home or
+                        change the look of your kitchen, then you've come to the right place.
+                    </p>
+                    <p>
+                        Many of our customers come to us for various reasons. Some of our
+                        customers have a clear plan in mind and some have ideas, but are not sure
+                        how to make their ideas a reality. We will patiently walk you through the
+                        entire project.
+                    </p>
+                    <p class="mb-0">
+                        Thank you for choosing Christopher Milo Construction!
+                    </p>
                 </div>
             </div>
         </div>
