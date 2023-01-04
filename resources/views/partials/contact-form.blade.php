@@ -4,22 +4,40 @@
     <div class="row">
         <div class="col-md-9">
             <div class="row">
-                <div class="col-md-4">
+                <div class="col-md-6">
                     <div class="form-group mb-3">
                         <label for="name">Name</label>
                         <input type="text" name="name" id="name" class="form-control" required>
                     </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-6">
                     <div class="form-group mb-3">
                         <label for="email">Email</label>
                         <input type="email" name="email" id="email" class="form-control" required>
                     </div>
                 </div>
-                <div class="col-md-4">
+
+                <div class="col-md-6">
                     <div class="form-group mb-3">
                         <label for="phone">Phone Number</label>
                         <input type="tel" name="phone" id="phone" class="form-control">
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="form-group mb-3">
+                        <label for="category">Type of Work</label>
+                        <select name="category" class="form-control">
+                            <option value="Kitchen">Kitchen</option>
+                            <option value="Bathroom">Bathroom</option>
+                            <option value="Electrical">Electrical</option>
+                            <option value="Plumbing">Plumbing</option>
+                            <option value="Pole Barn">Pole Barn</option>
+                            <option value="Deck">Deck</option>
+                            <option value="Whole House Remodel">Whole House Remodel</option>
+                            <option value="Room Remodel">Room Remodel</option>
+                            <option value="Other">Other</option>
+                        </select>
                     </div>
                 </div>
             </div>

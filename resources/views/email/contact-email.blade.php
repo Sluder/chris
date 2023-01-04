@@ -9,6 +9,11 @@
 
 <br>
 
+<b>Category</b>
+<p>{{ $details['category'] }}</p>
+
+<br>
+
 <b>Details</b>
 <p>{{ $details['details'] }}</p>
 
