@@ -26,10 +26,10 @@
                 <a class="navbar-brand d-none d-md-block" href="{{ route('view.index') }}">CMC</a>
 
                 <ul class="nav navbar-nav">
-                    <li class="nav-item ms-4 {{ (request()->is('/')) ? 'active' : '' }}">
+                    <li class="nav-item ms-4 {{ request()->routeIs('view.index') ? 'active' : '' }}">
                         <a href="{{ route('view.index') }}" class="nav-link">Home</a>
                     </li>
-                    <li class="nav-item ms-4 {{ (request()->is('/our-work')) ? 'active' : '' }}">
+                    <li class="nav-item ms-4 {{ request()->routeIs('view.ourWork') ? 'active' : '' }}">
                         <a href="{{ route('view.ourWork') }}" class="nav-link">Our Work</a>
                     </li>
                 </ul>
