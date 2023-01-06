@@ -28,6 +28,7 @@
                     <div class="form-group mb-3">
                         <label for="category">Type of Work</label>
                         <select name="category" class="form-control">
+                            <option value="Register To Win">Register To Win</option>
                             <option value="Kitchen">Kitchen</option>
                             <option value="Bathroom">Bathroom</option>
                             <option value="Electrical">Electrical</option>
@@ -54,7 +55,7 @@
             <ul class="contact-info">
                 <li>
                     <i class="fas fa-map-marker-alt"></i>
-                    <div class="info-item">Cleveland OH, 45434</div>
+                    <div class="info-item">Cleveland OH, 44113</div>
                 </li>
                 <li>
                     <i class="fas fa-phone-alt"></i>
@@ -64,13 +65,9 @@
                     <i class="far fa-envelope-open"></i>
                     <div class="info-item">cmiloproductions@gmail.com</div>
                 </li>
-                {{--<li>--}}
-                    {{--<i class="fab fa-facebook-f"></i>--}}
-                    {{--<div class="info-item">@fb-company</div>--}}
-                {{--</li>--}}
                 <li>
                     <i class="far fa-clock"></i>
-                    <div class="info-item">	Monday - Friday 9:00a - 5:00p</div>
+                    <div class="info-item">Monday - Friday 9:00a - 5:00p</div>
                 </li>
             </ul>
         </div>

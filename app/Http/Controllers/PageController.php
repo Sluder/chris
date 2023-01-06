@@ -13,4 +13,9 @@ class PageController extends Controller
     {
         return view('our-work');
     }
+
+    public function registerToWin()
+    {
+        return view('register-to-win');
+    }
 }

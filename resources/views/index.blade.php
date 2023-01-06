@@ -7,8 +7,8 @@
         <div class="jumbotron">
             <div class="jumbotron-content">
                 <div class="container text-center">
-                    <h1>Welcome to CMC</h1>
-                    <p>Northern Ohio Construction & Renovation</p>
+                    <h1>Welcome to Christopher Milo Construction LLC</h1>
+                    <p>Northeast Ohio Construction, Landscaping & Remodeling</p>
                     <a href="#get-in-touch" class="btn btn-yellow mt-4">Get in Touch</a>
                 </div>
             </div>
@@ -24,14 +24,19 @@
                             <div class="text-left">
                                 <h3>
                                     <span class="icon">
-                                        <i class="far fa-plug"></i>
+                                        <i class="far fa-construction"></i>
                                     </span>
-                                    Electrical
+                                    Demolition
                                 </h3>
                                 <div class="divider"></div>
                             </div>
 
-                            <p class="service-panel-content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. A eius facere in magni maxime nam pariatur quam, reiciendis vero voluptates! A, explicab</p>
+                            <p class="service-panel-content">
+                                One of the first steps in most construction projects, you can expect there will be
+                                some demo. We have learned over the years how important this step is to our customers.
+                                You can be confident we will treat your project with respect, make safety a priority
+                                and do the work quickly so we keep the mess to a minimum.
+                            </p>
                         </div>
                     </div>
                     <div class="col-md-4 service-panel-center">
@@ -39,15 +44,19 @@
                             <div class="text-left">
                                 <h3>
                                     <span class="icon">
-                                        <i class="far fa-construction"></i>
+                                        <i class="far fa-tree"></i>
                                     </span>
-                                    Demolition & Renovation
+                                    Landscaping & Outdoor Construction
                                 </h3>
                             </div>
 
                             <div class="divider"></div>
 
-                            <p class="service-panel-content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. A eius facere in magni maxime nam pariatur quam, reiciendis vero voluptates! A, explicab</p>
+                            <p class="service-panel-content">
+                                From infiltration trenches and retaining walls to you becoming the boss of the backyard
+                                and the envy of the neighborhood, we work closely with you to bring your outdoor
+                                landscaping dreams to a reality.
+                            </p>
                         </div>
                     </div>
                     <div class="col-md-4">
@@ -57,13 +66,17 @@
                                     <span class="icon">
                                         <i class="far fa-faucet-drip"></i>
                                     </span>
-                                    Plumbing
+                                    Electrical and Plumbing
                                 </h3>
                             </div>
 
                             <div class="divider"></div>
 
-                            <p class="service-panel-content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. A eius facere in magni maxime nam pariatur quam, reiciendis vero voluptates! A, explicab</p>
+                            <p class="service-panel-content">
+                                Our teams are ready for your project! We do much of the rough and finish work.
+                                Sometimes there is a need for more help. When those times come, we only use
+                                additional contractors that we would use in our own homes.
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -99,7 +112,12 @@
 
                             <h2>Bathroom</h2>
 
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A eius facere in magni maxime nam pariatur quam, reiciendis vero voluptates! A, explicabo iste nemo obcaecati perspiciatis saepe suscipit vitae voluptas.</p>
+                            <p>
+                                Let’s face it, we all visit the bathroom and from the words of my beautiful and very
+                                wise wife, “It should always be clean and a place that you can be proud of when
+                                guests come over!” Once again, she is right! We will listen to your ideas, offer
+                                solutions and make your visions, a reality.
+                            </p>
                         </div>
                     </div>
                     <div class="col-md-4">
@@ -108,7 +126,13 @@
 
                             <h2>Kitchen</h2>
 
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A eius facere in magni maxime nam pariatur quam, reiciendis vero voluptates! A, explicabo iste nemo obcaecati perspiciatis saepe suscipit vitae voluptas.</p>
+                            <p>
+                                How many times a week do you find your child sitting at the kitchen table doing homework
+                                or having a snack at the island? Research shows that we spend many hours every week in
+                                the kitchen for many reasons. For a fantastic functional kitchen, you should have a few
+                                different zones! If you don’t have a cooking zone, a cleaning zone, a prep zone, a
+                                consumable and non-consumable zone that you are in love with… we can fix that!
+                            </p>
                         </div>
                     </div>
                     <div class="col-md-4">
@@ -117,7 +141,13 @@
 
                             <h2>Outdoors</h2>
 
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A eius facere in magni maxime nam pariatur quam, reiciendis vero voluptates! A, explicabo iste nemo obcaecati perspiciatis saepe suscipit vitae voluptas.</p>
+                            <p>
+                                Have you ever wanted a Garden? Seriously? You know… a place you can show all your
+                                friends that you truly have a green thumb and have beautiful blooms or the perfect
+                                produce during every Summer? Or how about a grilling area worthy of your new grill?
+                                Or how about the new garage on the East side of the property to house all of your
+                                tools and “stuff” because you have simply… run out of room? We have lots to talk about!
+                            </p>
                         </div>
                     </div>
                 </div>

@@ -34,7 +34,10 @@
                     </li>
                 </ul>
 
+                <a href="{{ route('view.registerToWin') }}" class="btn btn-yellow" style="background-color: #ff7100; border: none;margin-left: 30px">Register to Win!</a>
+
                 <div class="contact">
+
                     <p>(330) 418-6616 <i class="fas fa-phone-alt ms-2"></i></p>
                     <p>cmiloproductions@gmail.com <i class="far fa-envelope-open ms-2"></i></p>
                 </div>

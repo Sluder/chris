@@ -162,6 +162,7 @@ html, body {
   border-radius: 5px;
   border: 1px solid #dcdcdc;
   padding: 25px;
+  min-height: 100%;
 }
 .index .our-work .our-work-panel .image {
   background-size: cover;
@@ -177,6 +178,7 @@ html, body {
 .index .our-work .our-work-panel p {
   color: #828282;
   font-size: 15px;
+  margin-bottom: 0;
 }
 .index .who-we-are {
   background: #dcdcdc;
@@ -244,4 +246,17 @@ html, body {
   font-size: 15px;
   display: table-cell;
   padding: 5px 0 0 45px;
+}
+
+.our-work-gallery section {
+  margin-bottom: 30px;
+}
+.our-work-gallery h2 {
+  font-size: 25px;
+}
+.our-work-gallery h3 {
+  font-size: 18px;
+}
+.our-work-gallery img {
+  margin: 8px;
 }
