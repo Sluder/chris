@@ -32,13 +32,16 @@
                     <li class="nav-item ms-4 {{ request()->routeIs('view.ourWork') ? 'active' : '' }}">
                         <a href="{{ route('view.ourWork') }}" class="nav-link">Our Work</a>
                     </li>
+                    <li class="nav-item ms-4 {{ request()->routeIs('view.recentProject') ? 'active' : '' }}">
+                        <a href="{{ route('view.recentProject') }}" class="nav-link">Recent Project</a>
+                    </li>
                 </ul>
 
                 <a href="{{ route('view.registerToWin') }}" class="btn btn-yellow" style="background-color: #ff7100; border: none;margin-left: 30px">Register to Win!</a>
 
                 <div class="contact">
 
-                    <p>(330) 418-6616 <i class="fas fa-phone-alt ms-2"></i></p>
+                    <p>(330) 936-9863 <i class="fas fa-phone-alt ms-2"></i></p>
                     <p>cmiloproductions@gmail.com <i class="far fa-envelope-open ms-2"></i></p>
                 </div>
             </div>

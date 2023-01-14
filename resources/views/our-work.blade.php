@@ -11,9 +11,6 @@
             <div class="divider"></div>
 
             <h3><i>Before</i></h3>
-            <img src="/img/our-work/bathroom/before/before-1.jpg" style="width: 200px">
-            <img src="/img/our-work/bathroom/before/before-2.jpg" style="width: 200px">
-            <img src="/img/our-work/bathroom/before/before-3.jpg" style="width: 200px">
             <img src="/img/our-work/bathroom/before/before-4.jpg" style="height: 266.6px">
             <img src="/img/our-work/bathroom/before/before-5.jpg" style="height: 266.6px">
 
@@ -27,12 +24,9 @@
             <h2>Attic</h2>
             <div class="divider"></div>
 
-            <h3><i>Before</i></h3>
             <img src="/img/our-work/attic/attic-1.jpg" style="width: 200px">
             <img src="/img/our-work/attic/attic-2.jpg" style="width: 200px">
             <img src="/img/our-work/attic/attic-3.jpg" style="width: 200px">
-
-            <h3 style="margin-top: 15px"><i>After</i></h3>
             <img src="/img/our-work/attic/attic-4.jpg" style="width: 200px">
             <img src="/img/our-work/attic/attic-5.jpg" style="width: 200px">
             <img src="/img/our-work/attic/attic-6.jpg" style="width: 200px">
@@ -41,11 +35,36 @@
         <section>
             <h2>Kitchen</h2>
             <div class="divider"></div>
+
+            <h3><i>Before</i></h3>
+            <img src="/img/our-work/bathroom/before/before-1.jpg" style="width: 200px">
+            <img src="/img/our-work/bathroom/before/before-2.jpg" style="width: 200px">
+            <img src="/img/our-work/bathroom/before/before-3.jpg" style="width: 200px">
+
+            <h3 style="margin-top: 15px"><i>After</i></h3>
             <img src="/img/our-work/kitchen/kitchen-1.jpeg" style="width: 200px">
-            <img src="/img/our-work/kitchen/kitchen-2.jpeg" style="width: 200px">
             <img src="/img/our-work/kitchen/kitchen-3.jpeg" style="width: 200px">
             <img src="/img/our-work/kitchen/kitchen-4.jpeg" style="width: 200px">
             <img src="/img/our-work/our-work-6.jpg" style="width: 200px">
+        </section>
+
+        <section>
+            <h2>Outdoors</h2>
+            <div class="divider"></div>
+
+            <h3><i>Before</i></h3>
+            <img src="/img/our-work/shed/shed-1.jpg" style="height: 250px">
+            <img src="/img/our-work/shed/shed-2.jpg" style="height: 250px">
+            <img src="/img/our-work/shed/shed-3.jpg" style="height: 250px">
+            <img src="/img/our-work/shed/shed-4.jpg" style="height: 250px">
+            <img src="/img/our-work/shed/shed-5.jpg" style="height: 250px">
+            <img src="/img/our-work/shed/shed-6.jpg" style="height: 250px">
+            <img src="/img/our-work/shed/shed-7.jpg" style="height: 250px">
+
+            <h3 style="margin-top: 15px"><i>After</i></h3>
+            <img src="/img/register/garden-1.jpg" style="width: 200px">
+            <img src="/img/register/garden-2.jpg" style="width: 200px">
+            <img src="/img/register/garden-4.jpg" style="width: 200px">
         </section>
 
         <section>

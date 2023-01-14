@@ -59,7 +59,7 @@
                 </li>
                 <li>
                     <i class="fas fa-phone-alt"></i>
-                    <div class="info-item">(330) 418-6616</div>
+                    <div class="info-item">(330) 936-9863</div>
                 </li>
                 <li>
                     <i class="far fa-envelope-open"></i>

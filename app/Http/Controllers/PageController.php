@@ -18,4 +18,9 @@ class PageController extends Controller
     {
         return view('register-to-win');
     }
+
+    public function recentProject()
+    {
+        return view('recent-project');
+    }
 }
