@@ -24,12 +24,18 @@
             <h2>Attic</h2>
             <div class="divider"></div>
 
+            <h3><i>Before</i></h3>
             <img src="/img/our-work/attic/attic-1.jpg" style="width: 200px">
             <img src="/img/our-work/attic/attic-2.jpg" style="width: 200px">
             <img src="/img/our-work/attic/attic-3.jpg" style="width: 200px">
             <img src="/img/our-work/attic/attic-4.jpg" style="width: 200px">
             <img src="/img/our-work/attic/attic-5.jpg" style="width: 200px">
             <img src="/img/our-work/attic/attic-6.jpg" style="width: 200px">
+
+            <h3 style="margin-top: 15px"><i>After</i></h3>
+            <img src="/img/our-work/attic-1.jpg" style="width: 200px">
+            <img src="/img/our-work/attic-2.jpg" style="width: 200px">
+            <img src="/img/our-work/attic-3.jpg" style="width: 200px">
         </section>
 
         <section>
