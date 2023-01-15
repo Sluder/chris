@@ -16,8 +16,8 @@
 
             <h3 style="margin-top: 15px"><i>After</i></h3>
             <img src="/img/our-work/bathroom/after-1.jpg" style="width: 200px">
-            <img src="/img/our-work/bathroom/after-2.jpg" style="width: 200px">
-            <img src="/img/our-work/bathroom/after-3.jpg" style="width: 200px">
+            <img src="/img/our-work/bathroom/bathroom-20.jpg" style="height: 266.6px">
+            <img src="/img/our-work/bathroom/bathroom-21.jpg" style="height: 266.6px">
         </section>
 
         <section>
