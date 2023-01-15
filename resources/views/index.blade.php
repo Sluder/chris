@@ -10,14 +10,16 @@
                     <h1>Welcome to Christopher Milo Construction LLC</h1>
                     <p>Northeast Ohio Construction, Landscaping & Remodeling</p>
                     <a href="#get-in-touch" class="btn btn-yellow mt-4">Get in Touch</a>
+
+                    <div class="mt-3">
+                        @include('partials.flash-message')
+                    </div>
                 </div>
             </div>
         </div>
 
         <div class="services">
             <div class="container-fluid">
-                @include('partials.flash-message')
-
                 <div class="row">
                     <div class="col-md-4">
                         <div class="service-panel mb-3">
