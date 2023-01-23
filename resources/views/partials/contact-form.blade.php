@@ -41,6 +41,13 @@
                         </select>
                     </div>
                 </div>
+
+                <div class="col-md-12">
+                    <div class="form-group mb-3">
+                        <label for="address">Address</label>
+                        <input type="text" name="address" id="address" class="form-control">
+                    </div>
+                </div>
             </div>
 
             <div class="form-group mb-3">
