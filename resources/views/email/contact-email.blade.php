@@ -10,7 +10,7 @@
 <br>
 
 <b>Address</b>
-<p>{{ $details['address'] }}</p>
+<p>{{ $details['address'] }}, {{ $details['city'] }}, {{ $details['zip'] }}</p>
 
 <br>
 

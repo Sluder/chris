@@ -27,7 +27,7 @@
                 <div class="col-md-6">
                     <div class="form-group mb-3">
                         <label for="category">Type of Work</label>
-                        <select name="category" class="form-control">
+                        <select name="category" class="form-control" required>
                             <option value="Register To Win">Register To Win</option>
                             <option value="Kitchen">Kitchen</option>
                             <option value="Bathroom">Bathroom</option>
@@ -42,10 +42,24 @@
                     </div>
                 </div>
 
-                <div class="col-md-12">
+                <div class="col-md-6">
                     <div class="form-group mb-3">
-                        <label for="address">Address</label>
-                        <input type="text" name="address" id="address" class="form-control">
+                        <label for="address">Street Address</label>
+                        <input type="text" name="address" id="address" class="form-control" required>
+                    </div>
+                </div>
+
+                <div class="col-md-3">
+                    <div class="form-group mb-3">
+                        <label for="city">City</label>
+                        <input type="text" name="city" id="city" class="form-control" required>
+                    </div>
+                </div>
+
+                <div class="col-md-3">
+                    <div class="form-group mb-3">
+                        <label for="zip">Zip</label>
+                        <input type="text" name="zip" id="zip" class="form-control" required>
                     </div>
                 </div>
             </div>
