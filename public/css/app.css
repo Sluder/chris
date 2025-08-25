@@ -188,6 +188,21 @@ html, body {
   color: #2E2E2E;
   font-size: 25px;
 }
+.index .inspections {
+  background: white;
+  padding: 40px 0;
+}
+.index .inspections h2 {
+  color: #2E2E2E;
+  font-size: 25px;
+}
+.index .inspections .quote-content {
+  color: #2E2E2E;
+}
+.index .inspections .quote-author {
+  color: #828282;
+  font-size: 15px;
+}
 .index .contact-form {
   background: #2E2E2E;
   padding: 40px 0;

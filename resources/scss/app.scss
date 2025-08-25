@@ -172,6 +172,25 @@ html, body {
         }
     }
 
+    .inspections {
+        background: white;
+        padding: 40px 0;
+
+        h2 {
+            color: $dark-grey;
+            font-size: 25px;
+        }
+
+        .quote-content {
+            color: $dark-grey;
+        }
+
+        .quote-author {
+            color: $light-grey;
+            font-size: 15px;
+        }
+    }
+
     .contact-form {
         background: $dark-grey;
         padding: 40px 0;

@@ -160,6 +160,52 @@
             </div>
         </div>
 
+        <div class="inspections">
+            <div class="container">
+                <h2 class="text-center">Home Inspections</h2>
+
+                <div class="divider"></div>
+
+                <div class="content">
+                    <p class="text-center">Protect Your Investment Before You Buy</p>
+                    <p>
+                        Buying a home is one of the biggest financial decisions you’ll ever make. Whether you’re a <b>first-time homebuyer</b>, a <b>real estate investor</b>, or simply purchasing your next home, having the right knowledge up front can save you from costly surprises later.
+                    </p>
+                    <p>
+                        That’s where <b>Christopher Milo Construction</b> comes in.
+                    </p>
+                    <p>
+                        A Two-Part Inspection Service :
+                    </p>
+                    <p>1. Comprehensive Home Inspection</p>
+                    <div class="quote" style="margin-left: 25px">
+                        <p class="quote-content">
+                            <i>
+                                “From the foundation to the roof and everything in between,
+                                I thoroughly inspect the home you’re considering. <br>With over 35 years in construction, I know where to look and what to look for.”
+                            </i>
+                        </p>
+                        <p class="quote-author">
+                            <i>- Christopher Milo</i>
+                        </p>
+                    </div>
+                    <p>2. Repair Cost Estimate</p>
+                    <p style="margin-left: 25px">Once the inspection is complete, you’ll receive a <b>guesstimated cost of repairs</b>. This practical breakdown arms you with real numbers you can use in negotiations—or to decide if the home is worth the investment</p>
+
+                    <p><b>Why Choose Christopher Milo?</b></p>
+                    <ul>
+                        <li><b>35 years of construction experience</b> as a framer, corporate buyer, home builder, and general contractor.</li>
+                        <li><b>Extensive product knowledge</b> and expertise in material costs and construction methods.</li>
+                        <li><b>Blueprint proficiency</b> for clear, accurate analysis of the property’s structure.</li>
+                        <li><b>Client-first approach</b>—I give you the facts you need to make smart decisions.</li>
+                    </ul>
+                    <p>
+                        The minimal investment it takes to have me inspect your home could <b>save you tens of thousands of dollars</b> in unexpected repairs.
+                    </p>
+                </div>
+            </div>
+        </div>
+
         <div class="who-we-are">
             <div class="container">
                 <h2 class="text-center">Who We Are</h2>
